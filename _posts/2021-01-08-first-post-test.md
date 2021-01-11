@@ -68,10 +68,15 @@ sudo apt install openjdk-8-jdk -y
 
 Kafka
 
-There is no fix link to curl at the moment
+reference: https://kafka.apache.org/downloads
 
- - https://kafka.apache.org/downloads
-
+```
+curl -O https://ftp.cixug.es/apache/kafka/2.7.0/kafka_2.13-2.7.0.tgz
+mv kafka_2.13-2.7.0.tgz ~/kafka_2.13-2.7.0.tgz
+tar -xvf kafka_2.13-2.7.0.tgz
+rm kafka_2.13-2.7.0.tgz
+echo 'export PATH="home/'$USER'/kafka_2.13-2.7.0:$PATH"' >> ~/.bashrc
+```
 
 IDEs
 
