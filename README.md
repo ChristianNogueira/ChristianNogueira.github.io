@@ -1,6 +1,6 @@
 # Personal site  
 
-Local development
+For local development use to serve
 
 ```
 bundle exec jekyll serve
