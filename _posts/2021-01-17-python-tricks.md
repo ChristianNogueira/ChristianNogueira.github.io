@@ -6,7 +6,7 @@ tags:
   - Python 
 ---
 
-Sharing some tricks with python lists
+Sharing some useful tricks with python 
 
  - Flattening a list of lists.
 
@@ -37,3 +37,4 @@ def permutations(string):
 
 >>> permutations('aabb')
 ['aabb', 'abab', 'abba', 'baab', 'baba', 'bbaa']
+```
