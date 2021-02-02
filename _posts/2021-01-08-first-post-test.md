@@ -105,6 +105,15 @@ sudo snap install spotify
 sudo apt install gnome-tweaks gnome-clocks -y
 ```
 
+AWS Cli
+```bash
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+rm awscliv2.zip
+rm -r aws/
+```
+
 SSH keys
 
 ```bash
