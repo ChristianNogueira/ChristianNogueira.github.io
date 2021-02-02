@@ -22,7 +22,7 @@ sudo apt install chromium-browser -y
 Install Vim, Git, Curl and pip. Upgrade to SpaceVim
 
 ```bash
-sudo apt install vim git-gtk curl python3-pip -y
+sudo apt install vim-gtk git curl python3-pip -y
 curl -sLf https://spacevim.org/install.sh | bash
 ```
 
@@ -31,8 +31,9 @@ Working with WordPress
  - Install PHP, Ngnix and MariaDB
 
 ```bash
+sudo apt install ngnix mariadb-server
 sudo add-apt-repository ppa:ondrej/php
-sudo apt install php7.4 php7.4-mysql php7.4-curl php7.4-json php7.4-cgi php7.4-xsl php7.4-xml php7.4-fpm php7.4-zip php7.4-mbstring php7.4-gd mariadb-server php7.4-xdebug
+sudo apt install php7.4 php7.4-mysql php7.4-curl php7.4-json php7.4-cgi php7.4-xsl php7.4-xml php7.4-fpm php7.4-zip php7.4-mbstring php7.4-gd php7.4-xdebug
 ```
 
  - Install Composer
